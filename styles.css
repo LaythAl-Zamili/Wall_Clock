@@ -4,7 +4,7 @@
         margin: 0;
         height: 100%;
         width: 100%;
-        background: #222;
+        background:gray;
         overflow: auto;
         text-align: center;
         font-family: "Trebuchet MS";
@@ -17,11 +17,11 @@
       {
         width: 320px;
         height: 320px;
-        background: #3058d0;
+        background: yellow;
         border-radius: 50%;
         position: relative;
         margin: 70px auto 70px auto;
-        border: 10px outset royalblue;
+        border: 10px outset goldenrod;
         box-shadow: 5px 5px 10px #161616;
       }
       
@@ -41,7 +41,7 @@
         height: 15px;
         width: 15px;
         margin: auto;
-        background: #ff7af9;
+        background:#161616;
         top: 142.5px;
         left: 143px;
         border-radius: 50%;
@@ -52,7 +52,7 @@
       {
         width: 1px;
         height: 130px;
-        background: white;
+        background: black;
         top: 19px;
         left: 150px;
         z-index: 4;
@@ -63,7 +63,7 @@
       {
         width: 3.5px;
         height: 127.5px;
-        background: #ff7af9;
+        background: #7ab4ff;
         top: 22px;
         left: 149px;
         z-index: 3;
@@ -74,7 +74,7 @@
       {
         width: 5.5px;
         height: 85px;
-        background: yellow;
+        background:rgb(0, 38, 255);
         top: 64.5px;
         left: 148px;
         border-radius: 2.75px;
@@ -97,14 +97,14 @@
       {
         width: 3px;
         height: 18px;
-        background: yellow;
+        background: rgb(255, 0, 21);
         border-radius: 1.5px;
         z-index: 2;
       }
       
       .displayed-digits
       {
-        color: gainsboro;
+        color: red;
         font-weight: bolder;
         font-size: 22px;
         font-family: Sans;
@@ -141,7 +141,7 @@
         left: 40px;
         width: 220px;
         height: 220px;
-        border: 2px solid royalblue;
+        border: 2px solid rgb(225, 65, 118);
         border-radius: 50%;
       }
       
@@ -150,32 +150,21 @@
         width: 1.5px;
         height: 6px;
         border-radius: 0.75px;
-        background: gainsboro;
+        background: red;
       }
       
       #am-pm
       {
         left: 130px;
         top: 170px;
-        color: royalblue;
-        background: darkblue;
+        color: black;
+        background: red;
         padding: 3px 10px;
         border-radius: 3px;
         z-index: 0;
         font-weight: bolder;
         font-size: 85%;
         letter-spacing: 2px;
-      }
-      
-      #my-name         
-      { 
-        display: inline-block; 
-        background: #333; 
-        padding: 7px 13px;
-        position: relative;
-        border-radius: 20px;
-        font-size: 80%;
-        color: #777;
       }
 
 
